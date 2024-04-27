@@ -1,0 +1,142 @@
+body{
+    font-family: arial;
+    color: #333;
+}
+
+h1{
+    font-weight: normal;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form{
+    width: 500px;
+    margin: 20px auto;
+}
+
+input{
+    display: block;
+    padding: 8px 16px;
+    font-size: 2em;
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    outline: none !important;
+}
+
+input.valid{
+    border-color: #36cc36;
+}
+
+input.invalid{
+    border-color: orange;
+}
+
+input + p{
+    font-family: arial;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orange;
+    opacity: 0;
+    height: 0;
+}
+
+input.invalid + p{
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: blanchedalmond; 
+}
+
+.container-login {
+   margin-left: 300px
+}
+
+label{
+    font-size: 20px;
+    
+}
+
+.container-keyboard{
+    margin: 200px 0 0 400px
+}
+
+.line{
+    width: 100%;
+    height: 60px;
+}
+
+.one, .two, .three, .four, .five{
+    margin: 10px 0 0 0;
+}
+
+button{
+    color: black;
+    width: 55px;
+    height: 55px;
+    border: 0;
+    border-radius: 20%;
+    background: rgb(207, 172, 118);
+    box-shadow: 5px 5px 10px #474343, -5px -5px 10px #fff;
+    font-size: 20px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:active{
+    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343
+}
+
+.back{
+    width: 160px;
+    border-radius: 10px;
+}
+
+.tab{
+    width: 85px;
+    border-radius: 10px;
+}
+
+.slice{
+    width: 130px;
+    border-radius: 10px;
+}
+.caps{
+    width: 110px;
+    border-radius: 10px;
+}
+
+.enter-btn{
+    width: 170px;
+    border-radius: 10px;
+}
+
+.shift{
+    width: 140px;
+    border-radius: 10px;
+}
+
+.other{
+    width: 90px;
+    border-radius: 10px;
+}
+
+.space{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.login-btn{
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(109, 139, 24);
+
+}

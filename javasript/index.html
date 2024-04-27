@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<script>
+
+/*
+const nubmers = []
+for(let i = 1; i <= 100; i++)
+{
+    nubmers.push(i)
+}
+
+//alert(nubmers)
+*/
+
+
+/*
+let a = 2*(3-1);
+let b = 6-2
+alert(a == b)
+*/
+
+/*
+let a = 5* (7-4);
+let b = 1+2+7;
+alert(a>b)
+*/
+
+/*
+let password.prompt = 545 ;
+if(password.length < 8 || password.length > 20);
+{
+    alert("Пароль не подходит")
+}
+else
+{
+    alert("Пароль подходит")
+}
+*/
+
+/*
+const vopros = prompt("Сколько у человека пальцев?", ``);
+if (vopros < 20)
+{
+    alert("Почти, но слишком мало");
+}
+
+else if(vopros > 20)
+{
+    alert("Слишком много...");
+}
+
+else
+{
+    alert("Верно.");
+}
+*/
+
+/*
+let age = prompt("Возраст?", ``)
+let message = (age < 3) ? "Приветсвую тебя малыш!":
+(age < 18) ? "Привествую тебя воин!":
+(age < 100) ? "Добрый день, вот это вы конечно...": "Какой необычный возраст";
+
+alert(message);
+*/
+
+/*
+let date = new Date();
+let time = date.getHours();
+let times = (time < 10) ? "Доброе утро!" :  
+(time < 11) ? "Добрый день"  : 
+(time < 22) ? "Добрый вечер" : "Скоро уже спать!";
+
+alert(times);
+*/
+
+/*
+let num = prompt ("Введите число.")
+// % Деление с остатком
+if (num % 2 == 0)
+{
+    alert ("Число" + num + "четное");
+}
+else
+{
+    alert("Число" + num + "нечетное")
+}
+*/ 
+
+/*
+function greet(from, text){
+    alert(from + ": " + text);
+}
+
+greet("Аня", "Привет!");
+greet("Аня", "Как дела?");
+*/
+
+/*
+function checkAge(age){
+    if (age >= 18){
+        return true;
+    }
+    else{
+        return confirm("А родители разрешили?");
+    }
+}
+
+let age = prompt("Сколько годиков?", 18)
+if (checkAge(age))
+{
+    alert("Доступ получен");
+}
+else
+{
+    alert("Доступ закрыт");
+}
+*/ 
+
+/*
+let age = prompt("Сколько вам лет?", 18)
+
+let welcome = (age < 18) ? () => alert("Привет") : () => alert("Здравтсвуйте");
+welcome() - Вывод
+*/ 
+
+/*
+const n=3
+
+function square(n) {
+    return n * n;
+}
+alert(square(n))
+*/
+
+
+///////////////////////////////////////////////////////////////
+// КТ №1 Введение в JS
+
+/* Задача №1 Выполнено
+const num = prompt("Введите число в диапазоне от 40 до 50", ``);
+if (num < 40)
+{
+    alert("Число меньше 40. Попробуйте ввести другое число");
+}
+else if(num > 50)
+{
+    alert("Число больше 50. Попробуйте ввести другое число");
+}
+else
+{
+    alert("Вы ввели правильное число поздравляю.")
+}
+
+/* Задача №2. Выполненно
+let a = 10;
+let b = 20;
+let c = 30;
+
+let resault = c*4/2+c
+alert(resault)
+*/
+
+/* Задача #3 complited 
+let user = []
+let name = prompt("Введите имя")
+let years = prompt("Сколько вам лет?")
+let city = prompt("Ваш город проживания")
+let company = prompt("Название компании")
+let rank = prompt("Ваша должность в компании")
+let zarplata = prompt("Заработная плата")
+
+user.push("Вас зовут: ", name) && user.push("Вам: ", years) && user.push("Вы проживаете в ",city) && user.push("Вы работаете в ",company) && user.push("Ваша должность: ",rank) && user.push("Ваша зарплата: ",zarplata)
+alert(user)
+*/
+
+/* Задача №5 comlited
+let money = prompt("Введите сумму, которую хотите конвертировать в юань.", "");
+let summa = money * 13.77; 
+alert(`cny:${summa}`)
+*/
+
+/* Задача №4 comlited
+let nums = [2, 9.4, 18.1, 21, 46.3]
+let count = (nums[0] + nums[1] + nums[2] + nums[3] + nums[4])
+alert(count)
+*/
+
+/*
+const developer = {
+    name: "Aleksandr",
+    salary: 100000,
+
+    getBonus (sum)
+    {
+        console.log(this.name, "Получит зарплату в этом месяце", this.salary + sum)
+
+    }
+}
+const manager = {
+    name: "Petr",
+    salary: 10000,
+}
+
+const rab = {
+    name: "Ivan",
+    salary: 5000,
+}
+
+//developer.getBonus.call(manager, 5000)
+
+manager.getBonus = developer.getBonus.bind(manager)
+rab.getBonus = developer.getBonus.bind(rab)
+manager.getBonus(5000)
+rab.getBonus(1500)
+developer.getBonus(25000)
+*/
+
+</script>

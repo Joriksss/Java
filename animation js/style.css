@@ -1,0 +1,28 @@
+/* .block{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(25, 182, 207);
+    margin: 3px
+}
+
+button{
+    text-transform: none;   
+    margin: 0.25rem;
+} */
+
+body{
+    overflow: hidden;
+}
+
+h1, h2 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h1 {
+    transform: scale(2) translateX(-1000px);
+}
+
+h2{
+    transform: scale(1) translateX(1500px);
+}

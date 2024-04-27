@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КАРТА ПАЦИЕНТА</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <center>
+        <h1>ЗДРАВСТВУЙТЕ, ПАЦИЕНТ!</h1>
+        <h2>Пожалуйста, заполните анкету!</h2>
+    </center>
+
+    <form>
+
+        <input class="input" type="text" name="Familiya" id="Familiya" placeholder="Фамилия">
+        <p>Введите свою настоящую фамилию на русском языке. Пример: Гулев</p>
+
+        <input class="input" type="text" name="Name" id="Name" placeholder="Имя">
+        <p>Ввведите свое настоящее имя на русском языке. Пример: Артур</p>
+
+        <input class="input" type="text" name="Firstname" id="Firstname" placeholder="Отчество">
+        <p>Ввведите свое настоящее отчество на русском языке. Пример: Игоревич </p>
+
+        <input class="input" type="text" name="Dr" id="Dr" placeholder="Дата рождения">
+        <p>Дата рождения введена не верна. Пример: 12.12.2023</p>
+
+        <input class="input" type="text" name="telephone" id="telephone" placeholder="Телефон">
+        <p>Введите свой контактный номер телефона. Пример: +7(964)454-29-47</p>
+<!-- 
+        <h3>Вы были госпитализированы в первый раз?</h3>
+        <label>Да<input type="radio" name="time" value="yes" checked></label> 
+        <label>Нет<input type="radio" name="time" value="no"></label>
+
+        <h3>Сколько времени Вы пробыли в больнице?</h3>
+        <input class="input" type="text" name="" id="">       
+                
+        <h3> К какому врачу (специальность) Вы были записаны на приём? </h3>
+        <input class="input" type="text" name="" id="">
+
+        <h3>Насколько Вы в общем довольны уходом за пациентом в нашей - больнице, где 1 -крайне отрицательно, а 10 – крайне положительно?</h3>
+        <input class="input" type="text" name="ocenka" id="ocenka">
+        <p>Введите цифру(оценку) от 1 до 10</p>
+
+        <h3>Уточните, пожалуйста, информацию, связанную с Вашей госпитализацией (что Вам не/понравилось, предложения улучшений и т.п. в свободной форме не более 1000 знаков)</h3>
+        <input class="input" type="text" name="" id=""> -->
+
+    </form>
+
+    <div class="line one">
+        <button class="btn">ё</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">0</button>
+        <button class="btn">-</button>
+        <button class="btn">=</button>
+        <button class="back">Backspace</button>
+    </div>
+    <div class="line two">
+        <button class="tab">Tab</button>
+        <button class="btn">й</button>
+        <button class="btn">ц</button>
+        <button class="btn">у</button>
+        <button class="btn">к</button>
+        <button class="btn">е</button>
+        <button class="btn">н</button>
+        <button class="btn">г</button>
+        <button class="btn">ш</button>
+        <button class="btn">щ</button>
+        <button class="btn">з</button>
+        <button class="btn">х</button>
+        <button class="btn">ъ</button>
+        <button class="slice">/</button>
+    </div>
+    <div class="line three">
+        <button class="caps">CapsLock</button>
+        <button class="btn">ф</button>
+        <button class="btn">ы</button>
+        <button class="btn">в</button>
+        <button class="btn">а</button>
+        <button class="btn">п</button>
+        <button class="btn">р</button>
+        <button class="btn">о</button>
+        <button class="btn">л</button>
+        <button class="btn">д</button>
+        <button class="btn">ж</button>
+        <button class="btn">э</button>
+        <button class="enter-btn">Enter</button>
+    </div>
+    <div class="line four">
+        <button class="shift">Shift</button>
+        <button class="btn">я</button>
+        <button class="btn">ч</button>
+        <button class="btn">с</button>
+        <button class="btn">м</button>
+        <button class="btn">и</button>
+        <button class="btn">т</button>
+        <button class="btn">ь</button>
+        <button class="btn">б</button>
+        <button class="btn">ю</button>
+        <button class="btn">.</button>
+        <button class="btn">,</button>
+        <button class="shift">Shift</button>
+    </div>
+    <div class="line five">
+        <button class="other">Ctrl</button>
+        <button class="other">Alt</button>
+        <button class="space">SPACE</button>
+        <button class="other">Alt</button>
+        <button class="other">Ctrl</button>
+    </div>
+    </div>
+
+    <script src="https://unpkg.com/imask"></script> 
+    <script src="script.js"></script>
+
+    <!-- ДАЛЕЕ СОЗДАЙТЕ АНКЕТУ ПАЦИЕНТА И ПОДКЛЮЧИТЕ ЭКРАННУЮ КЛАВИАТУРУ -->
+</body>
+</html>

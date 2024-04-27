@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БИБЛИОТЕКИ_УЧЕБНЫЙ ПРОЕКТ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header id="top">
+    <div class="one">
+    <h1>ГЛАВНАЯ</h1>
+    <div class="action">
+        <button data-target="#contact" data-mt-duration="1200" data-tippy-content="Перейти на вкладку 'КОНТАКТЫ'">КОНТАКТЫ</button>
+        <button data-target="#features" data-mt-duraction="1200" data-tippy-content="Перейти на вкладку 'ВОЗМОЖНОСТИ' ">ВОЗМОЖНОСТИ</button>
+        <button data-target="#Map" data-mt-duraction="1200">Карта</button>
+    </div>
+</div>
+</header>
+<div class="two">
+<section id="features" >
+    <h2>ВОЗМОЖНОСТИ</h2>
+    <button data-target="#top">ГЛАВНАЯ</button>
+    <button data-target="#contact">КОНТАКТЫ</button>
+    <button data-target="#Map" data-mt-duraction="1200">Карта</button>
+</section>
+</div>
+
+<div class="three">
+<section id="contact">
+    <div>
+        <h2>КОНТАКТЫ</h2>
+        <button data-target="#top" data-mt-duraction="1200">ГЛАВНАЯ</button>
+        <button data-target="#features" data-mt-duraction="1200">ВОЗМОЖНОСТИ</button>
+        <button data-target="#Map" data-mt-duraction="1200">Карта</button>
+
+    </div>
+</section>
+</div>
+<div>
+    <form autocomplete="off">
+        <label>
+            Телефон
+            <input type="text" id="phone">
+        </label>
+        <label>
+            Возраст
+            <input type="text" id="age">
+        </label>
+        <label>
+            Дата
+            <input type="text" id="date">
+        </label>
+    </form>
+</div>
+
+<script src="https://unpkg.com/imask"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="https://cdn.jsdelivr.net/npm/moveto@1.8.2/dist/moveTo.min.js"></script>
+<script  src="./script.js"></script> 
+
+</body>
+</html>

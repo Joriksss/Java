@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Заполните форму</h1>
+    <form>
+
+        <input type="text" name="username" id="username" placeholder="Фамилия">
+        <p>Логин должен содержать 5 - 12 символов</p>
+        <input type="text" name="username" id="username" placeholder="Имя">
+        <p>Логин должен содержать 5 - 12 символов</p>
+        <input type="text" name="username" id="username" placeholder="Отчество">
+        <p>Логин должен содержать 5 - 12 символов</p>
+
+        <input type="text" name="email" id="email" placeholder="Email">
+        <p>Укажите правильную форму Email'a, т.е. me@example.com</p>
+
+        <input type="text" name="password" id="password" placeholder="Password">
+        <p>пароль должен содержать буквы, цыфры (@, _ и - тоже допускаются) и состоять из 8 - 20 символов</p>
+
+        <input type="text" name="telephone" id="telephone" placeholder="Телефон">
+        <p>Телефон должен быть введен в правильной форме (11 цифр)</p>
+
+        <input type="text" name="slug" id="slug" placeholder="Ссылка профиля">
+        <p>Ссылка должна содержать только строчные буквы, номера и дефисы, а также состоять из https://</p>
+    
+    </form>
+
+
+
+    <script src="https://unpkg.com/imask"></script> 
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

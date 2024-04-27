@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КЛАВИАТУРА</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-login">
+    <h2>РЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ</h2>
+    <label for="inputName">Электронный ящик :</label>
+    <br><br>
+    <input class= "input" type="email" id="emailid" name="email" placeholder="Ваш E-mail" required>
+    <br><br>
+    <label for="inputPassword">ПАРОЛЬ :</label>
+    <br><br>
+    <input class="input" type="password" id="password" name="pass" placeholder="Ваш пароль" required>
+    <br><br><br>
+    <button class="login-btn" onclick="login()">ВОЙТИ</button>
+    <div id="result"></div>
+    <button class="login-btn" onclick="checkPassword()">ПРОВЕРИТЬ ПАРОЛЬ</button>
+    </div>
+    <div class="container-kayboard">
+        <div class="line one">
+            <button class="btn">Ё</button>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">0</button>
+            <button class="btn">-</button>
+            <button class="btn">=</button>
+            <button class="back">Backspace</button>
+        </div>
+        <div class="line two">
+            <button class="tab">Tab</button>
+            <button class="btn">Й</button>
+            <button class="btn">Ц</button>
+            <button class="btn">У</button>
+            <button class="btn">К</button>
+            <button class="btn">Е</button>
+            <button class="btn">Н</button>
+            <button class="btn">Г</button>
+            <button class="btn">Ш</button>
+            <button class="btn">Щ</button>
+            <button class="btn">З</button>
+            <button class="btn">Х</button>
+            <button class="btn">Ъ</button>
+            <button class="slice">/</button>
+        </div>
+        <div class="line three">
+            <button class="caps">CapsLock</button>
+            <button class="btn">Ф</button>
+            <button class="btn">Ы</button>
+            <button class="btn">В</button>
+            <button class="btn">А</button>
+            <button class="btn">П</button>
+            <button class="btn">Р</button>
+            <button class="btn">О</button>
+            <button class="btn">Л</button>
+            <button class="btn">Д</button>
+            <button class="btn">Ж</button>
+            <button class="btn">Э</button>
+            <button class="enter-btn">ENTER</button>
+        </div>
+        <div class="line four">
+            <button class="shift">SHIFT</button>
+            <button class="btn">Я</button>
+            <button class="btn">Ч</button>
+            <button class="btn">С</button>
+            <button class="btn">М</button>
+            <button class="btn">И</button>
+            <button class="btn" >Т</button>
+            <button class="btn">Ь</button>
+            <button class="btn">Б</button>
+            <button class="btn">Ю</button>
+            <button class="btn">.</button>
+            <button class="btn">,</button>
+            <button class="shift">SHIFT</button>
+        </div>
+        <div class="line five">
+            <button class="other">Ctrl</button>
+            <button class="other">Alt</button>
+            <button class="space">SPACE</button>
+            <button class="other">Alt</button>
+            <button class="other">Ctrl</button>
+        </div>
+    </div>
+    <!-- КЛАВИАТУРА ОКОНЧАНИЕ -->
+
+    <script src="index.js"></script>
+</body>
+</html>

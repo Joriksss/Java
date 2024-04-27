@@ -1,0 +1,17 @@
+button{
+    padding: 0.5 rem 0.8 rem;
+    font-size: 1.5 rem;
+}
+
+.element{
+    width: 100%;
+    font-size: 1.5 rem;
+    padding: 50 px 0;
+    text-align: center;
+    background-color: aqua;
+    margin-top:  20 px;
+}
+
+.hide{
+    display:none;
+}
