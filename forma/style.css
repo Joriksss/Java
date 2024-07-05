@@ -28,10 +28,12 @@ input{
 
 input.valid{
     border-color: #36cc36;
+    border: 20px;
 }
 
 input.invalid{
     border-color: orange;
+    border: 20px;
 }
 
 input + p{
